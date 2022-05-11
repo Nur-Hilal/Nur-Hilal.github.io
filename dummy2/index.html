@@ -14,19 +14,29 @@
         <!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
         <div>
             <h3> double click this button</h3>
+            <div>
+                <button name="dblclkme" ondblclick="alert('you double clicked')">Double click me </button>
+                <label id="btnClicked"></label>
+            </div>
 
-            <button name="dblclkme" ondblclick="alert('you double clicked')">Double click me </button>
-
+            <div>
+                <!-- auto generated id for this button -->
+                <button id={id}></button>
+            </div>
             <table>
                 <tr>
-                    <td><button id="btn1" class="Col1">id with class</button></td>
-                    <td><button id="btn1" class="Col2">duplicated id with class</button></td>
-                    <td><button class="Col3">class without id</button></td>
+                    <td><button id="btn1" class="Col1" onclick="consol.log('id with class button was clicked')">id with
+                            class</button></td>
+                    <td><button id="btn1" class="Col2"
+                            onclick="consol.log('duplicated id with class button was clicked')">duplicated id with
+                            class</button></td>
+                    <td><button class="Col3" onclick="consol.log('duplicated id with class button was clicked')">class
+                            without id</button></td>
                 </tr>
                 <tr>
                     <td><button class="Col1" name="clkBtn">duplicated class with name</button></td>
                     <td><button class="Col2">duplicated class without name</button></td>
-                    <td><button id="btn1" class="Col2">duplicated class and id</button> </td>
+                    <td><button id="btn2" class="Col2">duplicated class and unique id</button> </td>
                 </tr>
                 <tr>
                     <td><button name="clkBtn">duplicated name</button></td>
@@ -76,6 +86,9 @@
         </form>
         </div>
     </center>
+    <script>
+        var id = "id" + Math.random().toString(16).slice(2);
+    </script>
 </body>
 
 </html>
