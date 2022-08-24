@@ -21,16 +21,16 @@
                     ondblclick="alert('you double clicked')">Double click me </button>
                 <label id="btnClicked"></label>
             </div>
-
+            <button id="btn2" class="Col2"
+                            onclick="console.log(' unique id and unique class without name button was clicked')">
+                            unique id and unique class without name</button>
             <table>
                 <tr>
                     <td><button>Just a button</button></td>
                     <td><button id="btn0" class="Col1" name='button1'
                             onclick="console.log('all unique attributes button was clicked')">
                             All unique Attributes</button></td>
-                    <td><button id="btn2" class="Col2"
-                            onclick="console.log(' unique id and unique class without name button was clicked')">
-                            unique id and unique class without name</button></td>
+                    <td></td>
                     <td><button name='button3' class="Col3"
                             onclick="console.log('unique class and unique name without id button was clicked')">
                             unique class and unique name without id </button></td>
@@ -38,10 +38,10 @@
                 <tr>
                     <td><button id="notunique" class="col4" name="dblclkme">notunique id and not unique name with unique
                             class</button> </td>
-                    <td><button class="duplicated" name="dblclkme">duplicated class with not unique name without
-                            id</button></td>
+                    <td></td>
                     <td><button class="col5">unique class without name without id</button></td>
-
+                    <button class="duplicated" name="dblclkme">duplicated class with not unique name without
+                        id</button>
                 </tr>
                 <tr>
                     <td><button name="dblclkme">duplicated name</button></td>
