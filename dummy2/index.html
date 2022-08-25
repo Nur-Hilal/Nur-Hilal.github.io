@@ -13,7 +13,7 @@
         <h1> Search </h1>
         <!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
         <div>
-            <span> <h2>A little change to this website hierarchy</h2>
+            <span> 
         <div>
             <h3> double click this button</h3>
             <div>
@@ -28,7 +28,7 @@
                 <tr>
                     <td><button>Just a button</button></td>
                     <td><button id="btn0" class="Col1" name='button1'
-                            onclick="console.log('all unique attributes button was clicked')">
+                            onclick="style='background-color:red'">
                             All unique Attributes</button></td>
                     <td></td>
                     <td><button name='button3' class="Col3"
@@ -124,6 +124,22 @@
             <button type="button" data-id='promptBtn' onclick="prompt('enter anything')">prompt alert</button>
         </div>
     </center>
+    <script>
+        var el_up = document.getElementById("GFG_UP");
+        var el_down = document.getElementById("GFG_DOWN");
+        var str = "Click on button to change the background color";
+      
+        el_up.innerHTML = str;
+      
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+          
+        function gfg_Run() {
+            changeColor('yellow');
+            el_down.innerHTML = "Background Color changed";
+        }         
+    </script> 
 </body>
 
 </html>
