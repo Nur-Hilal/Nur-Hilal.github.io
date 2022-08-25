@@ -19,34 +19,34 @@
             <div>
                 <button id="notunique" class="duplicated" name="dblclkme"
                     ondblclick="alert('you double clicked')">Double click me </button>
-                <label id="btnClicked"></label>
+                <!-- <label id="btnClicked"></label> -->
             </div>
             <button id="btn2" class="Col2"
-                            onclick="console.log(' unique id and unique class without name button was clicked')">
+            onclick="style='background-color:green'">
                             unique id and unique class without name</button>
             <table>
                 <tr>
-                    <td><button>Just a button</button></td>
+                    <td><button onclick="style='background-color:green'">Just a button</button></td>
                     <td><button id="btn0" class="Col1" name='button1'
-                            onclick="style='background-color:red'">
+                            onclick="style='background-color:green'">
                             All unique Attributes</button></td>
                     <td></td>
                     <td><button name='button3' class="Col3"
-                            onclick="console.log('unique class and unique name without id button was clicked')">
+                        onclick="style='background-color:green'">
                             unique class and unique name without id </button></td>
                 </tr>
                 <tr>
-                    <td><button id="notunique" class="col4" name="dblclkme">notunique id and not unique name with unique
+                    <td><button id="notunique" class="col4" name="dblclkme" onclick="style='background-color:green'">notunique id and not unique name with unique
                             class</button> </td>
                     <td></td>
-                    <td><button class="col5">unique class, without name without id</button></td>
-                    <button class="duplicated" name="dblclkme">duplicated class with not unique name without
+                    <td><button class="col5" onclick="style='background-color:green'">unique class, without name without id</button></td>
+                    <button class="duplicated" name="dblclkme" onclick="style='background-color:green'">duplicated class with not unique name without
                         id</button>
                 </tr>
                 <tr>
-                    <td><button name="dblclkme">duplicated name</button></td>
-                    <td><button>none attributes</button></td>
-                    <td><button style="color: blue;">with style</button></td>
+                    <td><button name="dblclkme" onclick="style='background-color:green'">duplicated name</button></td>
+                    <td><button onclick="style='background-color:green'">none attributes</button></td>
+                    <td><button style="color: blue;" onclick="style='background-color:green'">with style</button></td>
                 </tr>
                 <tr>
                     <td><a id="l1" name="link1">unique id unique
