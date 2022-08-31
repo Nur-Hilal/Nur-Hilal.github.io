@@ -117,13 +117,13 @@
 
         </div>
 
-        <h2>Alert Testing</h2>
+        <!-- <h2>Alert Testing</h2>
         <div id='alertTesting'>
             <button type="button" id='alertBtn' onclick="alert('Warning this is just alert')"> simple alert</button>
             <button type="button" id='confirmBtn' onclick="confirm('To confirm or not to confirm')">confirm
                 alert</button>
             <button type="button" data-id='promptBtn' onclick="prompt('enter anything')">prompt alert</button>
-        </div>
+        </div> -->
     </center>
 
 </body>
