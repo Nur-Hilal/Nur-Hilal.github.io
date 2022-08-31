@@ -2,144 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Forms</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Forms</title>
 </head>
 
 <body>
-    <center>
-        <h1> Search Version 2</h1>
-        <!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
-        <div>
-            <span> 
-        <!-- <div>
-            <h3> double click this button</h3>
-            <div>
-                <button id="notunique" class="duplicated" name="dblclkme"
-                    ondblclick="alert('you double clicked')">Double click me </button>
-                <label id="btnClicked"></label>
-            </div> -->
-     
-            <table>
-                <tr>
-                    <!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
-                    <td><button id="btn01" class="Col1" name='button1'
-                            onclick="style='background-color:green'">
-                            All unique Attributes</button></td>
-                    <td><button id="btn02" class="Col2" onclick="style='background-color:green'">
-                                unique id and unique class without name</button></td>
-                    <td><button name='button03' class="Col3"
-                        onclick="style='background-color:green'">
-                            unique class and unique name without id </button></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button id="notunique" class="col04" name="dblclkme" onclick="style='background-color:green'">
-                        notunique id and not unique name with unique class</button> </td>
-                    <td><button class="duplicated" name="dblclkme" onclick="style='background-color:green'">
-                        duplicated class with not unique name without id</button></td>
-                    <td><button class="col5" onclick="style='background-color:green'">unique class without name without id</button></td>
-                    
-                </tr>
-                <tr>
-                    <td><button name="dblclkme" onclick="style='background-color:green'">duplicate name</button></td>
-                    <td><button onclick="style='background-color:green'">noattributes</button></td>
-                    <td><button style="color: blue;" onclick="style='background-color:green'">with-style</button></td>
-                </tr>
-                <tr>
-                    <td><a id="l1" name="link1">unique id unique
-                            name</a></td>
-                    <td><a id="notunique" name="link2">notunique id
-                            unique name</a></td>
-                    <td><a class="cls">unique class</a></td>
-                </tr>
-            </table>
-            <form action="https://www.youtube.com/results">
-                <!-- https://www.youtube.com/results -->
-                <span>
+	<center>
+		<h1> Version 1 - Original</h1>
+		<!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
+		<div style="padding: 20px;">
+			<h3> double click this button</h3>
+			<div><button id="notunique" class="duplicated" name="dblclkme"
+					ondblclick="alert('you double clicked')">Double
+					click me </button></div>
+		</div>
+		<table>
+			<tr>
+				<!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
+				<td><button id="btn1" class="Col1" name='button1' onclick="style='background-color:green'">
+						All unique Attributes</button></td>
+				<td><button id="btn2" class="Col2" onclick="style='background-color:green'">
+						unique id and unique class without name</button></td>
+				<td><button name='button3' class="Col3" onclick="style='background-color:green'">
+						unique class and unique name without id </button></td>
+			</tr>
+			<tr>
 
-                    <p>
-                        <label for="search">what are you looking for in youtube</label>
-                        <input type="text" id="01" placeholder="search youtube" name="search_query">
+				<td><button id="notunique" class="col4" name="dblclkme" onclick="style='background-color:green'">
+						not unique id and not unique name with unique class</button> </td>
+				<td><button class="duplicated" name="dblclkme" onclick="style='background-color:green'">
+						duplicated class with not unique name without id</button></td>
+				<td><button class="col5" onclick="style='background-color:green'">unique class without name without
+						id</button></td>
 
-                    </p>
-                    <p>
-                    <div id="btn" name="searchbtn">
-                        <label for="searchbtn">Click this button to search youtube</label>
-                        <button name="youtubeSearch">youtube_search</button>
-                    </div>
-                    </p>
+			</tr>
+			<tr>
+				<td><button name="dblclkme" onclick="style='background-color:green'">duplicate name</button></td>
+				<td><button onclick="style='background-color:green'">no attributes</button></td>
+				<td><button style="color: blue;" onclick="style='background-color:green'">with-style</button></td>
+			</tr>
 
-                </span>
+		</table>
 
+		<table>
+			<tr>
+				<td style="padding: 20px;"><a id="l1" name="link1">Link1: unique id unique
+						name</a></td>
+				<td style="padding: 20px;"><a id="notunique" name="link2">Link2: not unique id
+						unique name</a></td>
+				<td style="padding: 20px;"><a class="cls">Link3: unique class no id no name</a></td>
+			</tr>
+		</table>
 
-            </form>
-        </div>
-    </span></div>
-        <div>
-            <form action="https://www.google.com/search">
-                <span>
-                    <p>
-                        <label for="search">what are you looking for in Google </label>
-                        <input type="text" id="02" placeholder="search_google" name="q">
+		<div>
+			<form action="https://www.youtube.com/results">
+				<!-- https://www.youtube.com/results -->
+				<span>
 
-                    </p>
-                    <p>
-                    <div id="btn" name="searchbtn">
-                        <label for="searchbtn">Click this button to search google</label>
+					<p>
+						<label for="search">what are you looking for in youtube</label>
+						<input type="text" id="01" placeholder="search youtube" name="search_query">
 
-                        <button name="googleSearch">google search</button>
-                    </div>
-        </div>
-        </p>
-        </span>
-        </form>
-        </div>
+					</p>
+					<p>
+					<div id="btn" name="searchbtn">
+						<label for="searchbtn">Click this button to search youtube</label>
+						<button name="youtubeSearch">youtube_search</button>
+					</div>
+					</p>
 
-        <div id="forTesting">
-            <div>
-                <button type="button" id='unique1' onclick="style='background-color:green'"></button>
-                <button type="button" id='unique2' onclick="style='background-color:green'">id with text</button>
-                <button type="button" data-id='data1' onclick="alert(' data1 data-id was clicked')"></button>
-                <button type="button" data-id='data2' onclick="alert(' data2 data-id was clicked')"> data-id with
-                    text</button>
-            </div>
-            <div>
-                <span>
-                    <div>
-                        <button class="class1 class2 Class3">multiple classes</button>
-                        <button class="justOneClass"></button>
-                        <button class="C1 C2"></button>
-                    </div>
-                </span>
-            </div>
+				</span>
+			</form>
+			<form action="https://www.google.com/search">
+				<span>
+					<p>
+						<label for="search">what are you looking for in Google </label>
+						<input type="text" id="02" placeholder="search_google" name="q">
 
-        </div>
-        <div id='alertTesting'>
-            <button type="button" id='alertBtn' onclick="alert('Warning this is just alert')"> simple alert</button>
-            <button type="button" id='confirmBtn' onclick="confirm('To confirm or not to confirm')">confirm
-                alert</button>
-            <button type="button" data-id='promptBtn' onclick="prompt('enter anything')">prompt alert</button>
-        </div>
-    </center>
-    <script>
-        var el_up = document.getElementById("GFG_UP");
-        var el_down = document.getElementById("GFG_DOWN");
-        var str = "Click on button to change the background color";
-      
-        el_up.innerHTML = str;
-      
-        function changeColor(color) {
-            document.body.style.background = color;
-        }
-          
-        function gfg_Run() {
-            changeColor('yellow');
-            el_down.innerHTML = "Background Color changed";
-        }         
-    </script> 
+					</p>
+					<p>
+					<div id="btn" name="searchbtn">
+						<label for="searchbtn">Click this button to search google</label>
+
+						<button name="googleSearch">google search</button>
+					</div>
+					</p>
+				</span>
+			</form>
+		</div>
+
+		<h2>Text Testing</h2>
+		<div id="forTesting">
+			<div>
+				<button type="button" id='unique1' style="padding: 10px;"
+					onclick="style='padding: 10px; background-color:green;'"></button>
+				<button type="button" id='unique2' onclick="style=' background-color:green;'">id with
+					text</button>
+			</div>
+
+			<h2>Multiple Class Testing</h2>
+			<div>
+				<button class="class1 class2 Class3">multiple classes</button>
+				<button class="justOneClass">one class</button>
+				<button class="C1 C2"></button>
+			</div>
+
+		</div>
+
+		<h2>Alert Testing</h2>
+		<div id='alertTesting'>
+			<button type="button" id='alertBtn' onclick="alert('Warning this is just alert')"> simple alert</button>
+			<button type="button" id='confirmBtn' onclick="confirm('To confirm or not to confirm')">confirm
+				alert</button>
+			<button type="button" data-id='promptBtn' onclick="prompt('enter anything')">prompt alert</button>
+		</div>
+	</center>
+
 </body>
 
 </html>
