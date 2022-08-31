@@ -94,21 +94,25 @@
             </form>
         </div>
 
-        <h2>Text Testing</h2>
+        <h2>Attributes and Text changes</h2>
         <div id="forTesting">
             <div>
-                <button type="button" id='unique1' style="padding: 10px;"
+                <button type="button" id='unique01' style="padding: 10px;"
                     onclick="style='padding: 10px; background-color:green;'"></button>
-                <button type="button" id='unique2' onclick="style=' background-color:green;'">id with
+                <button type="button" id='unique02' onclick="style=' background-color:green;'">id, with
                     text</button>
             </div>
 
-            <h2>Multiple Class Testing</h2>
+            <h2>Attributes with Layout change</h2>
             <div>
-                <button class="class1 class2 Class3" onclick="style='padding: 10px; background-color:green;'">multiple
-                    classes</button>
-                <button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one class</button>
-                <button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button>
+                <div>
+                    <button class="class1 class2 Class3"
+                        onclick="style='padding: 10px; background-color:green;'">multiple
+                        classes</button>
+                </div>
+                <div><button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one
+                        class</button></div>
+                <div><button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button></div>
             </div>
 
         </div>
