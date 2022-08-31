@@ -49,11 +49,14 @@
         <h2> drastic changes in attributes</h2>
         <table>
             <tr>
-                <td style="padding: 20px;"><a id="l01" name="link01">Link1: unique id unique
+                <td style="padding: 20px;"><a id="l01" name="link01" onclick="style='background-color:green'">Link1:
+                        unique id unique
                         name</a></td>
-                <td style="padding: 20px;"><a id="notunique" name="link02">Link2: not unique id
+                <td style="padding: 20px;"><a id="notunique" name="link02"
+                        onclick="style='background-color:green'">Link2: not unique id
                         unique name</a></td>
-                <td style="padding: 20px;"><a class="cls">Link3: unique class no id no name</a></td>
+                <td style="padding: 20px;"><a class="cls" onclick="style='background-color:green'">Link3: unique class
+                        no id no name</a></td>
             </tr>
         </table>
 
@@ -107,11 +110,12 @@
             <div>
                 <div>
                     <button class="class1 class2 Class3"
-                        onclick="style='padding: 10px; background-color:green;'">multiple
-                        classes</button>
+                        onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
                 </div>
-                <div><button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one
-                        class</button></div>
+                <div>
+                    <button class="justOneClass"
+                        onclick="style='padding: 10px; background-color:green;'">one_class</button>
+                </div>
                 <div><button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button></div>
             </div>
 

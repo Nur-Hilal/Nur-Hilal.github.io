@@ -48,11 +48,14 @@
 
         <table>
             <tr>
-                <td style="padding: 20px;"><a id="l1" name="link1">Link1: unique id unique
+                <td style="padding: 20px;"><a id="l1" name="link1" onclick="style='background-color:green'">Link1:
+                        unique id unique
                         name</a></td>
-                <td style="padding: 20px;"><a id="notunique" name="link2">Link2: not unique id
+                <td style="padding: 20px;"><a id="notunique" name="link2"
+                        onclick="style='background-color:green'">Link2: not unique id
                         unique name</a></td>
-                <td style="padding: 20px;"><a class="cls">Link3: unique class no id no name</a></td>
+                <td style="padding: 20px;"><a class="cls" onclick="style='background-color:green'">Link3: unique class
+                        no id no name</a></td>
             </tr>
         </table>
 
@@ -104,9 +107,9 @@
 
             <h2>Multiple Class Testing</h2>
             <div>
-                <button class="class1 class2 Class3" onclick="style='padding: 10px; background-color:green;'">multiple
-                    classes</button>
-                <button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one class</button>
+                <button class="class1 class2 Class3"
+                    onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
+                <button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one_class</button>
                 <button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button>
             </div>
 
