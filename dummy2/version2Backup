@@ -109,14 +109,15 @@
             <h2>Attributes with Layout change</h2>
             <div>
                 <div>
-                    <button class="class1 class2 Class3"
-                        onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
-                </div>
-                <div>
-                    <button class="justOneClass"
+                    <button id="oclass" class="justOneClass"
                         onclick="style='padding: 10px; background-color:green;'">one_class</button>
                 </div>
-                <div><button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button></div>
+                <div>
+                    <button id="mclass" class="class1 class2 Class3"
+                        onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
+                </div>
+                <div><button id="mclass2" class="C1 C2"
+                        onclick="style='padding: 10px; background-color:green;'"></button></div>
             </div>
 
         </div>

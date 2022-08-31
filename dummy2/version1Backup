@@ -108,10 +108,11 @@
 
             <h2>Multiple Class Original State</h2>
             <div>
-                <button class="class1 class2 Class3"
+                <button id="oclass" class="justOneClass"
+                    onclick="style='padding: 10px; background-color:green;'">one_class</button>
+                <button id="mclass" class="class1 class2 Class3"
                     onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
-                <button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one_class</button>
-                <button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button>
+                <button id="mclass2" class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button>
             </div>
 
         </div>
