@@ -10,7 +10,7 @@
 
 <body>
 	<center>
-		<h1> Version 1 - Original</h1>
+		<h1> Version 2 - Attributes Testcase</h1>
 		<!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
 		<div style="padding: 20px;">
 			<h3> double click this button</h3>
@@ -18,15 +18,15 @@
 					ondblclick="alert('you double clicked')">Double
 					click me </button></div>
 		</div>
-		<h2>Original State</h2>
+		<h2> Simple changes in attributes</h2>
 		<table>
 			<tr>
 				<!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
-				<td><button id="btn1" class="Col1" name='button1' onclick="style='background-color:green'">
+				<td><button id="btn01" class="Col01" name='button1' onclick="style='background-color:green'">
 						All unique Attributes</button></td>
 				<td><button id="btn2" class="Col2" onclick="style='background-color:green'">
 						unique id and unique class without name</button></td>
-				<td><button name='button3' class="Col3" onclick="style='background-color:green'">
+				<td><button name='button03' class="Col3" onclick="style='background-color:green'">
 						unique class and unique name without id </button></td>
 			</tr>
 			<tr>
@@ -46,13 +46,13 @@
 			</tr>
 
 		</table>
-		<h2> Original State</h2>
+		<h2> drastic changes in attributes</h2>
 		<table>
 			<tr>
-				<td style="padding: 20px;"><a id="l1" name="link1" onclick="style='background-color:green'">Link1:
+				<td style="padding: 20px;"><a id="l01" name="link01" onclick="style='background-color:green'">Link1:
 						unique id unique
 						name</a></td>
-				<td style="padding: 20px;"><a id="notunique" name="link2"
+				<td style="padding: 20px;"><a id="notunique" name="link02"
 						onclick="style='background-color:green'">Link2: not unique id
 						unique name</a></td>
 				<td style="padding: 20px;"><a class="cls" onclick="style='background-color:green'">Link3: unique class
@@ -97,21 +97,26 @@
 			</form>
 		</div>
 
-		<h2>Original State</h2>
+		<h2>Attributes and Text changes</h2>
 		<div id="forTesting">
 			<div>
-				<button type="button" id='unique1' style="padding: 10px;"
+				<button type="button" id='unique01' style="padding: 10px;"
 					onclick="style='padding: 10px; background-color:green;'"></button>
-				<button type="button" id='unique2' onclick="style=' background-color:green;'">id with
+				<button type="button" id='unique02' onclick="style=' background-color:green;'">id, with
 					text</button>
 			</div>
 
-			<h2>Multiple Class Original State</h2>
+			<h2>Attributes with Layout change</h2>
 			<div>
-				<button class="class1 class2 Class3"
-					onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
-				<button class="justOneClass" onclick="style='padding: 10px; background-color:green;'">one_class</button>
-				<button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button>
+				<div>
+					<button class="class1 class2 Class3"
+						onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
+				</div>
+				<div>
+					<button class="justOneClass"
+						onclick="style='padding: 10px; background-color:green;'">one_class</button>
+				</div>
+				<div><button class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button></div>
 			</div>
 
 		</div>
