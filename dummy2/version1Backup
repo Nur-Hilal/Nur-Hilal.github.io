@@ -18,6 +18,7 @@
                     ondblclick="alert('you double clicked')">Double
                     click me </button></div>
         </div>
+        <h2>Original State</h2>
         <table>
             <tr>
                 <!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
@@ -45,7 +46,7 @@
             </tr>
 
         </table>
-
+        <h2> Original State</h2>
         <table>
             <tr>
                 <td style="padding: 20px;"><a id="l1" name="link1" onclick="style='background-color:green'">Link1:
@@ -96,7 +97,7 @@
             </form>
         </div>
 
-        <h2>Text Testing</h2>
+        <h2>Original State</h2>
         <div id="forTesting">
             <div>
                 <button type="button" id='unique1' style="padding: 10px;"
@@ -105,7 +106,7 @@
                     text</button>
             </div>
 
-            <h2>Multiple Class Testing</h2>
+            <h2>Multiple Class Original State</h2>
             <div>
                 <button class="class1 class2 Class3"
                     onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
