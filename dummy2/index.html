@@ -10,7 +10,7 @@
 
 <body>
 	<center>
-		<h1> Version 3 - Layout Testcase</h1>
+		<h1> Version 1 - Original</h1>
 		<!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
 		<div style="padding: 20px;">
 			<h3> double click this button</h3>
@@ -18,10 +18,10 @@
 					ondblclick="alert('you double clicked')">Double
 					click me </button></div>
 		</div>
-		<h2>Simple Layout change</h2>
+		<h2>Original State</h2>
 		<table>
 			<tr>
-				<td><button onclick="style='background-color:green'">Just a button</button></td>
+				<!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
 				<td><button id="btn1" class="Col1" name='button1' onclick="style='background-color:green'">
 						All unique Attributes</button></td>
 				<td><button id="btn2" class="Col2" onclick="style='background-color:green'">
@@ -33,32 +33,33 @@
 
 				<td><button id="notunique" class="col4" name="dblclkme" onclick="style='background-color:green'">
 						not unique id and not unique name with unique class</button> </td>
-				<td></td>
 				<td><button class="duplicated" name="dblclkme" onclick="style='background-color:green'">
 						duplicated class with not unique name without id</button></td>
-				<td></td>
 				<td><button class="col5" onclick="style='background-color:green'">unique class without name without
 						id</button></td>
 
 			</tr>
 			<tr>
-
+				<td><button name="dblclkme" onclick="style='background-color:green'">duplicate name</button></td>
 				<td><button onclick="style='background-color:green'">no attributes</button></td>
 				<td><button style="color: blue;" onclick="style='background-color:green'">with-style</button></td>
-				<td><button name="dblclkme" onclick="style='background-color:green'">duplicate name</button></td>
 			</tr>
 
 		</table>
-		<h2> drastic layout change </h2>
-		<div>
-			<a id="l1" name="link1" onclick="style='background-color:green'">Link1:
-				unique id unique
-				name</a>
-			<a id="notunique" name="link2" onclick="style='background-color:green'">Link2: not unique id
-				unique name</a>
-			<a class="cls" onclick="style='background-color:green'">Link3: unique class
-				no id no name</a>
-		</div>
+		<h2> Original State</h2>
+		<table>
+			<tr>
+				<td style="padding: 20px;"><a id="l1" name="link1" onclick="style='background-color:green'">Link1:
+						unique id unique
+						name</a></td>
+				<td style="padding: 20px;"><a id="notunique" name="link2"
+						onclick="style='background-color:green'">Link2: not unique id
+						unique name</a></td>
+				<td style="padding: 20px;"><a class="cls" onclick="style='background-color:green'">Link3: unique class
+						no id no name</a></td>
+			</tr>
+		</table>
+
 		<div>
 			<form action="https://www.youtube.com/results">
 				<!-- https://www.youtube.com/results -->
@@ -96,19 +97,14 @@
 			</form>
 		</div>
 
-		<h2>change text and layout and attributes</h2>
+		<h2>Original State</h2>
 		<div id="forTesting">
-			<span>
-				<ol>
-					<li>
-						<button type="button" id='unique01' style="padding: 10px;"
-							onclick="style='padding: 10px; background-color:green;'">did not have text</button>
-					</li>
-				</ol>
-
-				<button type="button" id='unique02' onclick="style=' background-color:green;'">id with
+			<div>
+				<button type="button" id='unique1' style="padding: 10px;"
+					onclick="style='padding: 10px; background-color:green;'"></button>
+				<button type="button" id='unique2' onclick="style=' background-color:green;'">id with
 					text</button>
-			</span>
+			</div>
 
 			<h2>Multiple Class Original State</h2>
 			<div>
