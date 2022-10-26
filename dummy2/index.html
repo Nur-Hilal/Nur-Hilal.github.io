@@ -10,7 +10,7 @@
 
 <body>
 	<center>
-		<h1> Version 4 - Text Testcase</h1>
+		<h1> Version 1 - Original</h1>
 		<!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
 		<div style="padding: 20px;">
 			<h3> double click this button</h3>
@@ -18,7 +18,7 @@
 					ondblclick="alert('you double clicked')">Double
 					click me </button></div>
 		</div>
-		<h2>Simple Chane</h2>
+		<h2>Original State</h2>
 		<table>
 			<tr>
 				<!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
@@ -34,28 +34,29 @@
 				<td><button id="notunique" class="col4" name="dblclkme" onclick="style='background-color:green'">
 						not unique id and not unique name with unique class</button> </td>
 				<td><button class="duplicated" name="dblclkme" onclick="style='background-color:green'">
-						duplicated class with not unique name without id and changed text</button></td>
+						duplicated class with not unique name without id</button></td>
 				<td><button class="col5" onclick="style='background-color:green'">unique class without name without
 						id</button></td>
 
 			</tr>
 			<tr>
-				<td><button name="dblclkme" onclick="style='background-color:green'">duplicate name 0</button></td>
-				<td><button onclick="style='background-color:green'">no attributes </button></td>
-				<td><button style="color: blue;" onclick="style='background-color:green'">style</button></td>
+				<td><button name="dblclkme" onclick="style='background-color:green'">duplicate name</button></td>
+				<td><button onclick="style='background-color:green'">no attributes</button></td>
+				<td><button style="color: blue;" onclick="style='background-color:green'">with-style</button></td>
 			</tr>
 
 		</table>
-		<h2> Drastic Change</h2>
+		<h2> Original State</h2>
 		<table>
 			<tr>
-				<td style="padding: 20px;"><a id="l1" name="link1" onclick="style='background-color:green'">1st
-						hyperLink</a></td>
+				<td style="padding: 20px;"><a id="l1" name="link1" onclick="style='background-color:green'">Link1:
+						unique id unique
+						name</a></td>
 				<td style="padding: 20px;"><a id="notunique" name="link2"
 						onclick="style='background-color:green'">Link2: not unique id
 						unique name</a></td>
-				<td style="padding: 20px;"><a class="cls" onclick="style='background-color:green'">3rd hyperLink</a>
-				</td>
+				<td style="padding: 20px;"><a class="cls" onclick="style='background-color:green'">Link3: unique class
+						no id no name</a></td>
 			</tr>
 		</table>
 
@@ -96,35 +97,23 @@
 			</form>
 		</div>
 
-		<h2>text and attributes change</h2>
+		<h2>Original State</h2>
 		<div id="forTesting">
 			<div>
-				<button type="button" id='unique01' style="padding: 10px;"
-					onclick="style='padding: 10px; background-color:green;'">there was no text here</button>
-				<button type="button" id='unique02' onclick="style= 
-				' background-color:green;'">changed id changed text</button>
+				<button type="button" id='unique1' style="padding: 10px;"
+					onclick="style='padding: 10px; background-color:green;'"></button>
+				<button type="button" id='unique2' onclick="style=' background-color:green;'">id with
+					text</button>
 			</div>
 
-			<h2>changed id changed layout and changed text, mutliple classes</h2>
-			<span>
-				<ol>
-					<li>
-						<button id="oclass0" class="justOneClass"
-							onclick="style='padding: 10px; background-color:green;'">one_class</button>
-					</li>
-					<li>
-						<button id="mclass0" class="class1 class2 Class3"
-							onclick="style='padding: 10px; background-color:green;'">multipleclasses</button>
-					</li>
-					<li>
-						<button id="mclass20" class="C1 C2"
-							onclick="style='padding: 10px; background-color:green;'">00000</button>
-					</li>
-				</ol>
-
-
-
-			</span>
+			<h2>Multiple Class Original State</h2>
+			<div>
+				<button id="oclass" class="justOneClass"
+					onclick="style='padding: 10px; background-color:green;'">one_class</button>
+				<button id="mclass" class="class1 class2 Class3"
+					onclick="style='padding: 10px; background-color:green;'">multiple_classes</button>
+				<button id="mclass2" class="C1 C2" onclick="style='padding: 10px; background-color:green;'"></button>
+			</div>
 
 		</div>
 
