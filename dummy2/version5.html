@@ -43,49 +43,18 @@
 <body>
     <center>
         <h1> Version 5 - contains simple iframes and hover action</h1>
-        <div>
-            Local Links
-            <a href="version2.html">Version 2</a>
-            <a href="version3.html">Version 3</a>
-            <a href="version4.html">Version 4</a>
-        </div>
-        <iframe name="frame1">
-            <html>
 
-            <body>
-                <div>
-                    url Links
-                    <a href="https://nur-hilal.github.io/dummy2/version2.html">Version 2</a>
-                    <a href="https://nur-hilal.github.io/dummy2/version3.html">Version 3</a>
-                    <a href="https://nur-hilal.github.io/dummy2/version4.html">Version 4</a>
-                </div>
-            </body>
+        <iframe src="frame1.html" name="frame1" title="first frame"></iframe>
 
-            </html>
-        </iframe>
+        <iframe src="frame2.html" name="frame2" title="second frame"></iframe>
 
-        <!-- <img src="https://storage.googleapis.com/twg-content/images/MarketingResources_Thumbnail_Search.width-1200.jpg"> -->
-        <iframe name="frame2">
-            <html>
-
-            <body>
-                <div style="padding: 20px;">
-                    <h3> double click this button</h3>
-                    <div><button id="notunique" class="duplicated" name="dblclkme"
-                            ondblclick="alert('you double clicked')">Double
-                            click me </button></div>
-                </div>
-            </body>
-
-            </html>
-        </iframe>
 
         <h2 style="margin-top: 10px;">Original State</h2>
         <div class="button-container">
             <button class="initial-button">Hover me!</button>
             <button class="replacement-button">New button!</button>
         </div>
-        <table>
+        <table style="margin-top: 20px;">
             <tr>
                 <!-- <td><button onclick="style='background-color:green'">Just a button</button></td> -->
                 <td>
